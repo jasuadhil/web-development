@@ -2,9 +2,6 @@ name: Server with Cloudflare Tunnel
 
 on:
   workflow_dispatch:
-  schedule:
-    # 04:00 UTC (4:00 AM)
-    - cron: '0 4 * * *'
 
 jobs:
   b:
